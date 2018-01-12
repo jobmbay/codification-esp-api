@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongo": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://jobmbay:passer@ds249787.mlab.com:49787/codification-esp",
+    "database": "",
+    "password": "",
+    "name": "mongo",
+    "user": "",
+    "connector": "mongodb"
   }
 }
