@@ -1,0 +1,76 @@
+{
+  "name": "Etudiant",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nom": {
+      "type": "string"
+    },
+    "prenom": {
+      "type": "string"
+    },
+    "age": {
+      "type": "number"
+    },
+    "sexe": {
+      "type": "string"
+    },
+    "matricule": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "adresse": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "niveau": {
+      "type": "belongsTo",
+      "model": "Niveau",
+      "foreignKey": ""
+    },
+    "cycle": {
+      "type": "belongsTo",
+      "model": "Cycle",
+      "foreignKey": ""
+    },
+    "option": {
+      "type": "belongsTo",
+      "model": "Option",
+      "foreignKey": ""
+    },
+    "chambre": {
+      "type": "belongsTo",
+      "model": "Chambre",
+      "foreignKey": ""
+    },
+    "couloire": {
+      "type": "belongsTo",
+      "model": "Couloire",
+      "foreignKey": ""
+    },
+    "etage": {
+      "type": "belongsTo",
+      "model": "Etage",
+      "foreignKey": ""
+    },
+    "position": {
+      "type": "belongsTo",
+      "model": "Position",
+      "foreignKey": ""
+    },
+    "batiment": {
+      "type": "belongsTo",
+      "model": "Batiment",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

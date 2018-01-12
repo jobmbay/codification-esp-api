@@ -1,0 +1,33 @@
+{
+  "name": "Cycle",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "options": {
+      "type": "hasAndBelongsToMany",
+      "model": "Option",
+      "foreignKey": "idOption"
+    },
+    "niveaus": {
+      "type": "hasAndBelongsToMany",
+      "model": "Niveau",
+      "foreignKey": ""
+    },
+    "etudiants": {
+      "type": "hasMany",
+      "model": "Etudiant",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

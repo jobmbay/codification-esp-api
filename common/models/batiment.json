@@ -1,0 +1,33 @@
+{
+  "name": "Batiment",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "etudiants": {
+      "type": "hasMany",
+      "model": "Etudiant",
+      "foreignKey": ""
+    },
+    "etages": {
+      "type": "hasAndBelongsToMany",
+      "model": "Etage",
+      "foreignKey": ""
+    },
+    "chambres": {
+      "type": "hasAndBelongsToMany",
+      "model": "Chambre",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

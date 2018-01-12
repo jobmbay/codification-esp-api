@@ -1,0 +1,23 @@
+{
+  "name": "Departement",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "options": {
+      "type": "hasMany",
+      "model": "Option",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

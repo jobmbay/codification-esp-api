@@ -1,0 +1,38 @@
+{
+  "name": "Etage",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "numero": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "etudiants": {
+      "type": "hasMany",
+      "model": "Etudiant",
+      "foreignKey": ""
+    },
+    "couloires": {
+      "type": "hasAndBelongsToMany",
+      "model": "Couloire",
+      "foreignKey": ""
+    },
+    "chambres": {
+      "type": "hasAndBelongsToMany",
+      "model": "Chambre",
+      "foreignKey": ""
+    },
+    "batiments": {
+      "type": "hasAndBelongsToMany",
+      "model": "Batiment",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

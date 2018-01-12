@@ -1,0 +1,28 @@
+{
+  "name": "Position",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "numero": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "etudiants": {
+      "type": "hasMany",
+      "model": "Etudiant",
+      "foreignKey": ""
+    },
+    "chambres": {
+      "type": "hasAndBelongsToMany",
+      "model": "Chambre",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

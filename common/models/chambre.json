@@ -1,0 +1,43 @@
+{
+  "name": "Chambre",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "numero": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "etudiants": {
+      "type": "hasMany",
+      "model": "Etudiant",
+      "foreignKey": ""
+    },
+    "couloires": {
+      "type": "hasAndBelongsToMany",
+      "model": "Couloire",
+      "foreignKey": ""
+    },
+    "etages": {
+      "type": "hasAndBelongsToMany",
+      "model": "Etage",
+      "foreignKey": ""
+    },
+    "batiments": {
+      "type": "hasAndBelongsToMany",
+      "model": "Batiment",
+      "foreignKey": ""
+    },
+    "positions": {
+      "type": "hasAndBelongsToMany",
+      "model": "Position",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
