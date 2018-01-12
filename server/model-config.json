@@ -14,25 +14,65 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Etudiant": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Departement": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Option": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Cycle": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Niveau": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Chambre": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Couloire": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Etage": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Batiment": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "Position": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
