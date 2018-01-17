@@ -8,6 +8,9 @@
   "properties": {
     "label": {
       "type": "string"
+    },
+    "nombreetage": {
+      "type": "number"
     }
   },
   "validations": [],
