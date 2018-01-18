@@ -74,5 +74,9 @@
   "Position": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Email": {
+    "dataSource": "email",
+    "public": true
   }
 }

@@ -12,5 +12,24 @@
     "name": "mongo",
     "user": "",
     "connector": "mongodb"
+  },
+  "email": {
+    "name": "email",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.gmail.com",
+        "secure": true,
+        "port": 465,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "jobmbay@gmail.com",
+          "pass": "mbaye1993"
+        }
+      }
+    ]
   }
 }
