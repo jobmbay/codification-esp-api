@@ -23,7 +23,8 @@
     "etages": {
       "type": "hasAndBelongsToMany",
       "model": "Etage",
-      "foreignKey": ""
+      "foreignKey": "",
+      "through" : "Batimentetage"
     },
     "chambres": {
       "type": "hasAndBelongsToMany",

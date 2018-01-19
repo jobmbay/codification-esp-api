@@ -78,5 +78,9 @@
   "Email": {
     "dataSource": "email",
     "public": true
+  },
+  "BatimentEtage": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
