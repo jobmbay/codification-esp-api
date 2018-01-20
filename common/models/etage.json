@@ -30,7 +30,8 @@
     "batiments": {
       "type": "hasAndBelongsToMany",
       "model": "Batiment",
-      "foreignKey": ""
+      "foreignKey": "batimentId",
+      "through" : "Batimentetage"
     }
   },
   "acls": [],
