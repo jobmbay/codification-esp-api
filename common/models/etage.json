@@ -28,10 +28,10 @@
       "foreignKey": ""
     },
     "batiments": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Batiment",
       "foreignKey": "batimentId",
-      "through" : "Batimentetage"
+      "through": "BatimentsEtages"
     }
   },
   "acls": [],

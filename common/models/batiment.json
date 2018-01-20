@@ -20,16 +20,16 @@
       "model": "Etudiant",
       "foreignKey": ""
     },
-    "etages": {
-      "type": "hasAndBelongsToMany",
-      "model": "Etage",
-      "foreignKey": "etageId",
-      "through" : "Batimentetage"
-    },
     "chambres": {
       "type": "hasAndBelongsToMany",
       "model": "Chambre",
       "foreignKey": ""
+    },
+    "etages": {
+      "type": "hasMany",
+      "model": "Etage",
+      "foreignKey": "etageId",
+      "through": "BatimentsEtages"
     }
   },
   "acls": [],

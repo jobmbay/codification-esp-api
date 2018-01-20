@@ -11,7 +11,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "batiment": {
+      "type": "belongsTo",
+      "model": "Batiment",
+      "foreignKey": "batimentId"
+    },
+    "etage": {
+      "type": "belongsTo",
+      "model": "Etage",
+      "foreignKey": "etageId"
+    }
+  },
   "acls": [],
   "methods": {}
 }
