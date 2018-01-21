@@ -23,7 +23,7 @@
       "foreignKey": ""
     },
     "chambres": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Chambre",
       "foreignKey": ""
     },

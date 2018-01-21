@@ -8,6 +8,9 @@
   "properties": {
     "numero": {
       "type": "number"
+    },
+    "nbposition": {
+      "type": "number"
     }
   },
   "validations": [],
@@ -40,6 +43,11 @@
     "couloire": {
       "type": "belongsTo",
       "model": "Couloire",
+      "foreignKey": ""
+    },
+    "etage": {
+      "type": "belongsTo",
+      "model": "Etage",
       "foreignKey": ""
     }
   },
