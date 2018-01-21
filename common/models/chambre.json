@@ -36,6 +36,11 @@
       "type": "hasAndBelongsToMany",
       "model": "Position",
       "foreignKey": ""
+    },
+    "couloire": {
+      "type": "belongsTo",
+      "model": "Couloire",
+      "foreignKey": ""
     }
   },
   "acls": [],

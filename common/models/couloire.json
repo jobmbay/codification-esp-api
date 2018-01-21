@@ -18,12 +18,17 @@
       "foreignKey": ""
     },
     "chambres": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Chambre",
       "foreignKey": ""
     },
     "etages": {
       "type": "hasAndBelongsToMany",
+      "model": "Etage",
+      "foreignKey": ""
+    },
+    "etage": {
+      "type": "belongsTo",
       "model": "Etage",
       "foreignKey": ""
     }

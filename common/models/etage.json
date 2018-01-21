@@ -18,7 +18,7 @@
       "foreignKey": ""
     },
     "couloires": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Couloire",
       "foreignKey": ""
     },
@@ -27,11 +27,10 @@
       "model": "Chambre",
       "foreignKey": ""
     },
-    "batiments": {
-      "type": "hasMany",
+    "batiment": {
+      "type": "belongsTo",
       "model": "Batiment",
-      "foreignKey": "batimentId",
-      "through": "BatimentsEtages"
+      "foreignKey": ""
     }
   },
   "acls": [],

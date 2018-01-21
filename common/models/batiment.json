@@ -28,8 +28,7 @@
     "etages": {
       "type": "hasMany",
       "model": "Etage",
-      "foreignKey": "etageId",
-      "through": "BatimentsEtages"
+      "foreignKey": ""
     }
   },
   "acls": [],
