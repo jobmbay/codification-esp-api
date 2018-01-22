@@ -8,6 +8,9 @@
   "properties": {
     "numero": {
       "type": "number"
+    },
+    "demeurant": {
+      "type": "string"
     }
   },
   "validations": [],
