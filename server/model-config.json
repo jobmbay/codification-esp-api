@@ -82,5 +82,9 @@
   "BatimentsEtages": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Admin": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
