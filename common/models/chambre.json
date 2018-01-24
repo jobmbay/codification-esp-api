@@ -36,7 +36,7 @@
       "foreignKey": ""
     },
     "positions": {
-      "type": "hasAndBelongsToMany",
+      "type": "hasMany",
       "model": "Position",
       "foreignKey": ""
     },

@@ -17,8 +17,8 @@
       "model": "Etudiant",
       "foreignKey": ""
     },
-    "chambres": {
-      "type": "hasAndBelongsToMany",
+    "chambre": {
+      "type": "belongsTo",
       "model": "Chambre",
       "foreignKey": ""
     }
