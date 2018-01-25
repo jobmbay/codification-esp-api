@@ -12,14 +12,14 @@
   },
   "validations": [],
   "relations": {
-    "etudiants": {
-      "type": "hasMany",
-      "model": "Etudiant",
-      "foreignKey": ""
-    },
     "chambre": {
       "type": "belongsTo",
       "model": "Chambre",
+      "foreignKey": ""
+    },
+    "etudiant": {
+      "type": "belongsTo",
+      "model": "Etudiant",
       "foreignKey": ""
     }
   },

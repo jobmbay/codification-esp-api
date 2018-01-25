@@ -60,14 +60,14 @@
       "model": "Etage",
       "foreignKey": ""
     },
-    "position": {
-      "type": "belongsTo",
-      "model": "Position",
-      "foreignKey": ""
-    },
     "batiment": {
       "type": "belongsTo",
       "model": "Batiment",
+      "foreignKey": ""
+    },
+    "position": {
+      "type": "belongsTo",
+      "model": "Position",
       "foreignKey": ""
     }
   },
